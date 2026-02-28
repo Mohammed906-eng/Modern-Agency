@@ -363,3 +363,21 @@ footer.social a {
   color: #fff;
   font-size: 22px;
 }
+/* تنسيقات خاصة للجوال والشاشات الصغيرة */
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        overflow-x: hidden; /* لمنع التمرير الأفقي المزعج */
+    }
+
+    .container {
+        width: 95%; /* جعل المحتوى يأخذ مساحة الشاشة بالكامل */
+        padding: 0 10px;
+    }
+
+    /* مثال: إذا كان لديك أعمدة بجانب بعضها، اجعلها فوق بعض */
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+}
