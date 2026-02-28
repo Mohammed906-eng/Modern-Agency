@@ -388,3 +388,14 @@ footer.social a {
     box-sizing: border-box;
 }
 
+/* هذا السطر هو الأهم لمنع أي عنصر من التمدد خارج الشاشة */
+* {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* إخفاء أي محتوى يخرج عن حدود الشاشة أفقياً */
+body {
+    overflow-x: hidden !important;
+    width: 100%;
+}
