@@ -20,6 +20,7 @@
 body {
   background: var(--white);
   color: var(---text);
+  overflow-x: hidden;
 }
 section {
   padding: 100px 0px;
@@ -371,6 +372,7 @@ footer.social a {
     }
 
     .container {
+      
         width: 95%; /* جعل المحتوى يأخذ مساحة الشاشة بالكامل */
         padding: 0 10px;
     }
@@ -381,3 +383,8 @@ footer.social a {
         flex-direction: column;
     }
 }
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
